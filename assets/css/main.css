@@ -3,6 +3,11 @@ html {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(/assets/fonts/Roboto-Black.ttf)
+ }
+
 body {
   background: #fff;
   font-size: 14px;
@@ -514,6 +519,10 @@ hr {
   padding: 0px;
 }
 
+.navbar-brand a {
+  color: 
+}
+
 .top-nav-collapse {
   background: #fff;
   z-index: 999999;
@@ -759,8 +768,8 @@ hr {
 
 #hero-area .contents .head-title {
   color: #222222;
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 500;
   line-height: 60px;
   margin-bottom: 10px;
 }
@@ -1279,7 +1288,6 @@ textarea {
 /* Footer Area Start */
 .footer-area {
   position: relative;
-  padding: 150px 0px 0px;
   background: #fff;
 }
 
@@ -1413,4 +1421,54 @@ textarea {
 
 .social-icon .google:hover {
   background: #CE332A;
+}
+
+.programm {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.programm__steps {
+  text-align: left;
+  margin: auto;
+  
+}
+
+.programm__title {
+  font-size: 35px; 
+  margin-bottom:  20px;
+}
+
+.programm__step {
+  display: flex;
+  align-items: top;
+  font-size: 17px;
+}
+
+.results {
+  text-align: center;
+}
+
+.results__title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.result__item {
+  display: flex;
+  align-items: center;
+}
+
+.result__text {
+  font-size: 17px;
+}
+
+.result__img img {
+ width: 50%;
+}
+
+.result__button {
+  padding-top: 30px;
 }
