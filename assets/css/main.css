@@ -17,7 +17,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #abacae;
+  color: #757575;
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -69,6 +69,7 @@ a:not([href]):not([tabindex]) {
 
 .section-header {
   margin-bottom: 30px;
+  font-weight: 300;
 }
 
 .section-header p {
@@ -81,7 +82,7 @@ a:not([href]):not([tabindex]) {
   font-size: 30px;
   color: #222222;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   position: relative;
   font-family: Roboto; 
 }
@@ -770,7 +771,7 @@ hr {
 #hero-area .contents .head-title {
   color: #222222;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 400;
   
   margin-bottom: 10px;
   font-family: Roboto;
